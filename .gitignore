@@ -50,8 +50,7 @@ plugins/Citizens/
 plugins/PlaceholderAPI/config.yml
 plugins/WorldEdit/config.yml
 
-# ===== BLAZECORE PLAYER DATA =====
-plugins/BlazeCore/data/
+
 
 # ===== PLAYER / SERVER RUNTIME DATA =====
 usercache.json
