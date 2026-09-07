@@ -1,0 +1,60 @@
+À 😂 bạn hỏi **FancyNpcs** chứ không phải IP server.
+
+Giờ plugin đã chạy thì mình làm NPC `Survival` luôn. Đứng **đúng vị trí muốn NPC xuất hiện** trong lobby rồi:
+
+```text
+/npc create survival
+```
+
+Sau đó đặt tên hiển thị:
+
+```text
+/npc displayname survival "<gold><bold>⚔ SINH TỒN ⚔</bold></gold>"
+```
+
+Cho NPC quay đầu nhìn người chơi:
+
+```text
+/npc turn_to_player survival true
+```
+
+Set skin bằng tên Minecraft, ví dụ:
+
+```text
+/npc skin survival Notch
+```
+
+Và nếu NPC đang sai vị trí, đứng chỗ mới rồi:
+
+```text
+/npc move_here survival
+```
+
+Mục tiêu trước mắt của mình là làm ra:
+
+```text
+      ⚔ SINH TỒN ⚔
+   Click để bắt đầu
+          👤
+         NPC
+```
+
+Sau khi NPC hiện đúng vị trí và skin ổn, **đừng gắn teleport vội**. Bước kế mình sẽ cho bạn set interaction của FancyNpcs để:
+
+**Click NPC → mở GUI → chọn Sinh tồn / Boss / Gacha / Shop.**
+
+
+/dh h create survival_text
+
+/dh l set survival_text 1 1 &6&l✦ &e&lKHỞI ĐẦU HÀNH TRÌNH &6&l✦
+
+/dh l add survival_text 1 &a&l🌲 SINH TỒN 🌲
+
+/dh l add survival_text 1 &fKhai phá &8• &fXây dựng &8• &fPhát triển
+
+/dh l add survival_text 1 &e&l➜ CLICK ĐỂ BẮT ĐẦU
+
+/npc action survival RIGHT_CLICK add player_command blazemenu
+/npc action survival RIGHT_CLICK list
+player_command → blazemenu
+/blazemenu

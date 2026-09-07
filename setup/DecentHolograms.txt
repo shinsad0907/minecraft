@@ -1,0 +1,136 @@
+Chuẩn. Vậy **tạm gác economy/rank/survival**, tập trung hoàn thiện lobby trước.
+
+Thứ tự lobby mình làm cho bạn sẽ là:
+
+```text
+🏰 MAP HUB                         ✅
+📍 Lobby spawn                    ✅
+🔒 WorldGuard bảo vệ              ✅
+✨ TAB đẹp                         ✅
+🎉 Welcome khi join               ✅/đang chỉnh
+🪧 Hologram                       ← LÀM NGAY
+🧑 NPC
+🧭 Menu chọn chức năng
+🚪 Cổng Survival
+✨ Particle / hiệu ứng
+📊 Scoreboard bên phải
+🎵 Âm thanh / ambience
+```
+
+## Bước tiếp theo: DecentHolograms
+
+Dùng **DecentHolograms** để đặt chữ nổi trong không gian. Ví dụ ngay giữa quảng trường:
+
+```text
+       ✦ BLAZE SURVIVAL ✦
+    Chào mừng đến với máy chủ
+
+       👥 27 người online
+          ★ ★ ★ ★ ★
+```
+
+Hoặc trên từng khu:
+
+```text
+        ⚔ SINH TỒN ⚔
+     Click NPC để bắt đầu
+              ↓
+             🧙
+```
+
+```text
+         🎁 GACHA 🎁
+      Thử vận may của bạn!
+              ↓
+             🧙
+```
+
+```text
+       💰 CỬA HÀNG 💰
+      Mua & bán vật phẩm
+              ↓
+             🧙
+```
+
+DecentHolograms có hỗ trợ PlaceholderAPI nên sau này số online, tên player, tiền... có thể thay đổi thật.
+
+### 1. Tải plugin
+
+[DecentHolograms chính thức trên Modrinth](https://modrinth.com/plugin/decentholograms?utm_source=chatgpt.com)
+
+Tải bản Bukkit/Paper tương thích **1.21.x**.
+
+Sau đó `stop`, bỏ `.jar` vào:
+
+```text
+plugins/
+├── TAB.jar
+├── PlaceholderAPI.jar
+├── WorldEdit.jar
+├── WorldGuard.jar
+├── Multiverse-Core.jar
+├── WelcomeTitle.jar
+└── DecentHolograms.jar       ← mới
+```
+
+Mở server lại.
+
+### 2. Tạo hologram đầu tiên
+
+Vào `lobby`, bay/đứng **ngay chỗ bạn muốn chữ xuất hiện**.
+
+Gõ:
+
+```text
+/dh hologram create welcome
+```
+
+Sau đó:
+
+```text
+/dh line add welcome "&6&l✦ BLAZE SURVIVAL ✦"
+/dh line add welcome "&fChào mừng &e%player_name% &fđến với máy chủ!"
+/dh line add welcome ""
+/dh line add welcome "&a👥 &fĐang online: &e%server_online%"
+/dh line add welcome "&7Khám phá • Sinh tồn • Boss • Gacha"
+```
+
+Vì bạn đã cài PlaceholderAPI + Player + Server expansion nên chúng ta có thể tận dụng dữ liệu động.
+
+Nếu `%player_name%` trong hologram không thay theo từng người thì **không sao**, DecentHolograms có cách xử lý placeholder theo người xem; mình sẽ chỉnh sau khi xác nhận version/config của bạn.
+
+### 3. Chỉnh vị trí
+
+Nếu chữ nằm thấp/quá cao, đứng ở vị trí mới rồi:
+
+```text
+/dh hologram align welcome
+```
+
+Nếu version của bạn không có command `align`, gõ:
+
+```text
+/dh help
+```
+
+rồi gửi mình phần command — mình sẽ dùng đúng syntax của bản bạn đang chạy.
+
+---
+
+Sau khi hologram đầu tiên hoạt động, **đừng tạo 20 cái ngay**. Bước kế tiếp mình muốn làm **NPC**, vì lúc đó lobby của bạn sẽ bắt đầu trông đúng kiểu server lớn:
+
+```text
+              ✦ SINH TỒN ✦
+          Click để bắt đầu chơi
+                   ↓
+                  🧙
+             [ SURVIVAL ]
+
+    🎁 GACHA                  💰 SHOP
+       🧙                       🧙
+
+                  👤
+             PLAYER SPAWN
+```
+
+Cài **DecentHolograms trước**, tạo được `welcome`, rồi mình dẫn bạn làm NPC có skin + tên + click mở menu.

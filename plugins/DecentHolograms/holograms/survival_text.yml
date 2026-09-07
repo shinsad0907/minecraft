@@ -1,0 +1,18 @@
+location: lobby:56.643:31.715:320.482
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l✦ &e&lKHỞI ĐẦU HÀNH TRÌNH &6&l✦'
+    height: 0.3
+  - content: '&a&l🌲 SINH TỒN 🌲'
+    height: 0.3
+  - content: '&fKhai phá &8• &fXây dựng &8• &fPhát triển'
+    height: 0.3
+  - content: '&e&l➜ CLICK ĐỂ BẮT ĐẦU'
+    height: 0.3
+  actions: {}

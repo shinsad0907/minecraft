@@ -1,0 +1,145 @@
+npcs:
+  90164c89-f00f-479c-9c24-e70658c0f500:
+    name: survival
+    creator: 3b97e863-9715-37d5-9fce-c556a762fee9
+    displayName: '"<gold><bold>⚔ SINH TỒN ⚔</bold></gold>"'
+    type: PLAYER
+    location:
+      world: lobby
+      x: 56.57415974212089
+      y: 28.0
+      z: 320.4476318614763
+      yaw: 175.65814
+      pitch: 2.0721228
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      identifier: Notch
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: blazemenu
+  0b313fbc-b02d-42b4-a67f-91316f2a9744:
+    name: gacha
+    creator: 3b97e863-9715-37d5-9fce-c556a762fee9
+    displayName: '"<gradient:#FF55FF:#AA00FF><bold>✦ GACHA ✦</bold></gradient>"'
+    type: PLAYER
+    location:
+      world: lobby
+      x: 52.36733254431594
+      y: 28.0
+      z: 318.4402823818187
+      yaw: -143.31555
+      pitch: 34.330902
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: play_sound
+          value: entity.player.levelup
+  c5f04c3b-9422-4d06-8a75-ff10a2eed7c5:
+    name: boss
+    creator: 3b97e863-9715-37d5-9fce-c556a762fee9
+    displayName: '"<gradient:#FF0000:#8B0000><bold>☠ SĂN BOSS ☠</bold></gradient>"'
+    type: PLAYER
+    location:
+      world: lobby
+      x: 68.46803030757839
+      y: 28.0
+      z: 320.48985722469456
+      yaw: -177.65161
+      pitch: 36.076817
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+  79537736-cbc2-4bab-a000-a1bb2b14904b:
+    name: Shop
+    creator: 3b97e863-9715-37d5-9fce-c556a762fee9
+    displayName: Shop
+    type: PLAYER
+    location:
+      world: lobby
+      x: 48.426958472835835
+      y: 28.0
+      z: 314.5035118849146
+      yaw: -137.76038
+      pitch: 57.364887
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+  f58bcc2e-ec99-409a-a1f0-89658ea1fe67:
+    name: ranking
+    creator: 3b97e863-9715-37d5-9fce-c556a762fee9
+    displayName: '"<gold><bold>🏆 XẾP HẠNG 🏆</bold></gold>"'
+    type: PLAYER
+    location:
+      world: lobby
+      x: 72.53922127892227
+      y: 28.0
+      z: 318.4292679633293
+      yaw: 139.17557
+      pitch: 35.79402
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      identifier: Notch
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: rankingmenu

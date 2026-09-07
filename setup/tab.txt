@@ -1,0 +1,23 @@
+plugins/
+└── TAB/
+    ├── config.yml
+    ├── groups.yml
+    └── ...
+
+╔══════════════════════════════╗
+        ✦ BLAZE SURVIVAL ✦
+╚══════════════════════════════╝
+
+       Xin chào ShinYewEm!
+
+       👥 Online: 1/100
+       🌎 Khu vực: Lobby
+       ⚡ Ping: 21ms
+
+──────── NGƯỜI CHƠI ────────
+
+ 👑 [OWNER] ShinYewEm
+
+────────────────────────────
+     play.blazesurvival.vn
+        Chúc bạn chơi vui!

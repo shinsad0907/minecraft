@@ -1,0 +1,85 @@
+menu_title: '&8🏆 XẾP HẠNG MÁY CHỦ'
+open_command:
+  - rankingmenu
+
+size: 45
+
+items:
+
+  money:
+    material: GOLD_INGOT
+    slot: 10
+    display_name: '&6&l👑 TOP GIÀU NHẤT'
+    lore:
+      - ''
+      - '&7Xem những đại gia giàu nhất'
+      - '&7trên máy chủ.'
+      - ''
+      - '&e➜ Click để xem'
+
+  level:
+    material: EXPERIENCE_BOTTLE
+    slot: 12
+    display_name: '&a&l⚔ TOP LEVEL'
+    lore:
+      - ''
+      - '&7Những người chơi có cấp độ'
+      - '&7cao nhất máy chủ.'
+      - ''
+      - '&e➜ Click để xem'
+
+  boss:
+    material: WITHER_SKELETON_SKULL
+    slot: 14
+    display_name: '&c&l☠ TOP SĂN BOSS'
+    lore:
+      - ''
+      - '&7Những chiến binh tiêu diệt'
+      - '&7nhiều Boss nhất.'
+      - ''
+      - '&e➜ Click để xem'
+
+  playtime:
+    material: CLOCK
+    slot: 16
+    display_name: '&b&l⏱ TOP THỜI GIAN CHƠI'
+    lore:
+      - ''
+      - '&7Những người chơi hoạt động'
+      - '&7nhiều nhất máy chủ.'
+      - ''
+      - '&e➜ Click để xem'
+
+  gacha:
+    material: CHEST
+    slot: 30
+    display_name: '&d&l💎 TOP GACHA'
+    lore:
+      - ''
+      - '&7Những người chơi may mắn'
+      - '&7nhất tại Gacha.'
+      - ''
+      - '&e➜ Click để xem'
+
+  pvp:
+    material: DIAMOND_SWORD
+    slot: 32
+    display_name: '&c&l🗡 TOP PVP'
+    lore:
+      - ''
+      - '&7Những chiến binh mạnh nhất'
+      - '&7trong PvP.'
+      - ''
+      - '&e➜ Click để xem'
+
+  close:
+    material: BARRIER
+    slot: 40
+    display_name: '&c&l✖ ĐÓNG'
+    lore:
+      - ''
+      - '&7Click để đóng bảng xếp hạng.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'

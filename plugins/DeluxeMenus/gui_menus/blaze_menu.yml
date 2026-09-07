@@ -1,0 +1,83 @@
+menu_title: '&8✦ BLAZE SURVIVAL ✦'
+open_command:
+  - blazemenu
+  - menu
+size: 27
+
+items:
+
+  survival:
+    material: GRASS_BLOCK
+    slot: 10
+    display_name: '&a&l🌲 SINH TỒN'
+    lore:
+      - ''
+      - '&7Khám phá thế giới sinh tồn'
+      - '&7Farm tài nguyên và phát triển'
+      - ''
+      - '&e➜ Click để tham gia'
+    left_click_commands:
+      - '[player] mvtp survival'
+    right_click_commands:
+      - '[player] mvtp survival'
+
+  boss:
+    material: WITHER_SKELETON_SKULL
+    slot: 12
+    display_name: '&c&l☠ SĂN BOSS'
+    lore:
+      - ''
+      - '&7Thách đấu những Boss nguy hiểm'
+      - '&7Nhận vật phẩm hiếm'
+      - ''
+      - '&c⚠ Sắp mở'
+
+  gacha:
+    material: CHEST
+    slot: 14
+    display_name: '&d&l✦ GACHA'
+    lore:
+      - ''
+      - '&7Mở rương và nhận'
+      - '&7những phần thưởng đặc biệt'
+      - ''
+      - '&d⚠ Sắp mở'
+
+  shop:
+    material: EMERALD
+    slot: 16
+    display_name: '&6&l💰 CỬA HÀNG'
+    lore:
+      - ''
+      - '&7Mua và bán vật phẩm'
+      - '&7trong server'
+      - ''
+      - '&6⚠ Sắp mở'
+
+  quests:
+    material: BOOK
+    slot: 22
+    display_name: '&e&l📜 NHIỆM VỤ'
+    lore:
+      - ''
+      - '&7Hoàn thành nhiệm vụ'
+      - '&7để nhận phần thưởng'
+      - ''
+      - '&e⚠ Sắp mở'
+    
+  lobby:
+    material: NETHER_STAR
+    slot: 4
+    display_name: '&b&l🏠 LOBBY'
+    lore:
+      - ''
+      - '&7Quay trở về sảnh chính'
+      - '&7của &6Blaze Survival'
+      - ''
+      - '&e➜ Click để về Lobby'
+    left_click_commands:
+      - '[player] mvtp lobby'
+      - '[close]'
+    right_click_commands:
+      - '[player] mvtp lobby'
+      - '[close]'

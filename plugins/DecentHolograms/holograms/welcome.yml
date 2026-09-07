@@ -1,0 +1,22 @@
+location: lobby:62.487:33.013:304.425
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Blank Line
+    height: 0.3
+  - content: '"&6&l✦ BLAZE SURVIVAL ✦"'
+    height: 0.3
+  - content: '"&fChào mừng &e%player_name%&f!"'
+    height: 0.3
+  - content: '""'
+    height: 0.3
+  - content: '"&a👥 &fĐang online: &e%server_online%"'
+    height: 0.3
+  - content: '"&7Khám phá • Sinh tồn • Boss • Gacha"'
+    height: 0.3
+  actions: {}

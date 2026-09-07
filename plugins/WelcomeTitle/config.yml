@@ -1,0 +1,31 @@
+# ========================================================== #
+#                                                            #
+#                  W E L C O M E  T I T L E                  #
+#                                                            #
+# ========================================================== #
+
+settings:
+  play-sound-on-join: true
+  sound-type: "entity.ender_dragon.growl"
+  sound-volume: 0.6
+  sound-pitch: 1.4
+
+display:
+  enable: true
+
+  # Gradient cam rực → vàng kim, đậm dần vào tâm chữ
+  title: "&#FF4500&l⚔ &#FF6A00B&#FF8300L&#FF9C00A&#FFB500Z&#FFCE00E &#FFE700S&#FFF000U&#FFF900R&#FFFF00V&#FFE700I&#FFCE00V&#FFB500A&#FF9C00L &#FF8300⚔&r"
+
+  subtitle: "&#FFD700✦ &fChào mừng &#FFEA00&l%player%&f đến với &#FF8C00Blaze Survival&f &#FFD700✦"
+
+  timings:
+    fade-in: 15
+    stay: 80
+    fade-out: 25
+
+chat-messages:
+  enable-custom-messages: true
+
+  join-message: "&8╔══════════════════════════════════╗\n&8║&r        &6&l⚔ &#FFA500B&#FFB300L&#FFC100A&#FFCF00Z&#FFDD00E &#FFEB00S&#FFF900U&#FFFF00R&#FFEB00V&#FFDD00I&#FFCF00V&#FFC100A&#FFB300L &6&l⚔&r        &8║\n&8║&r                                    &8║\n&8║&r  &fChào mừng &e&l%player% &fđã tham gia!  &8║\n&8║&r  &7Khám phá &6Survival &7• &6Boss &7• &6Gacha  &8║\n&8╚══════════════════════════════════╝&r"
+
+  quit-message: "&8┗━&c✦ &7%player% &8đã rời khỏi thế giới&r"

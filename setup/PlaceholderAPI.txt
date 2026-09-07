@@ -1,0 +1,9 @@
+Hiểu đơn giản nhé: PlaceholderAPI không phải plugin làm giao diện đẹp. Nó giống như một “cầu nối dữ liệu” để TAB, scoreboard, hologram, chat... lấy thông tin thật từ server/plugin khác.
+
+- "Xin chào %player_name%"
+- "Ping: %player_ping%ms"
+- "Online: %server_online%"
+
+/papi ecloud download Player
+/papi ecloud download Server
+/papi reload

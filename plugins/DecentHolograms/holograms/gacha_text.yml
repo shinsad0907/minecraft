@@ -1,0 +1,18 @@
+location: lobby:52.433:31.599:318.643
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&l✦ &5&lTHỬ VẬN MAY &d&l✦'
+    height: 0.3
+  - content: '&6&l🎁 GACHA MAY MẮN 🎁v'
+    height: 0.3
+  - content: '&fQuay thưởng &8• &fVật phẩm hiếm &8• &fJackpot'
+    height: 0.3
+  - content: '&e&l➜ CLICK ĐỂ QUAY'
+    height: 0.3
+  actions: {}

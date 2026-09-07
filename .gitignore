@@ -1,0 +1,81 @@
+# =========================================
+# BLAZE SURVIVAL - GITIGNORE
+# =========================================
+
+# ---------- WORLDS ----------
+world/
+world_nether/
+world_the_end/
+lobby/
+survival/
+
+# ---------- SERVER RUNTIME ----------
+logs/
+cache/
+crash-reports/
+libraries/
+versions/
+.paper-remapped/
+.console_history
+
+# ---------- JAR / BACKUP ----------
+*.jar
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+
+# ---------- WORLDEDIT CACHE ----------
+plugins/WorldEdit/.archive-unpack/
+
+# Không đồng bộ schematic map qua Git
+plugins/WorldEdit/schematics/
+
+# ---------- PLUGIN CACHE / ANALYTICS ----------
+plugins/FancyAnalytics/
+plugins/bStats/
+plugins/spark/
+
+# FancyNPC skin cache
+plugins/FancyNpcs/.data/skins/
+
+# TAB cache / player runtime data
+plugins/TAB/skincache.yml
+plugins/TAB/playerdata.yml
+
+# ---------- SERVER PLAYER DATA ----------
+usercache.json
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+
+# ---------- WINDOWS ----------
+Thumbs.db
+desktop.ini
+
+# ---------- OTHER ----------
+eula.txt
+version_history.json
+
+# ===== KHÔNG CẦN THIẾT CHO TEAM =====
+
+# Plugin cũ / không dùng
+plugins/Citizens/
+
+# File version/runtime của FancyNpcs
+plugins/FancyNpcs/version.yml
+plugins/FancyNpcs/featureFlags.yml
+
+# PlaceholderAPI config gần như không cần đồng bộ
+plugins/PlaceholderAPI/config.yml
+
+# Config tool/admin, ít khi cần đồng bộ
+plugins/WorldEdit/config.yml
+
+# Server files mặc định, trừ khi team cố ý chỉnh
+help.yml
+permissions.yml
+wepif.yml

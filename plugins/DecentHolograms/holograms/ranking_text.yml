@@ -1,0 +1,20 @@
+location: lobby:72.749:32.361:318.491
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l✦ &e&lBẢNG VÀNG MÁY CHỦ &6&l✦'
+    height: 0.3
+  - content: '&e&l🏆 XẾP HẠNG 🏆'
+    height: 0.3
+  - content: '&e&l🏆 XẾP HẠNG 🏆'
+    height: 0.3
+  - content: '&fTop người chơi &8• &fThành tích &8• &fVinh danh'
+    height: 0.3
+  - content: '&e&l➜ CLICK ĐỂ XEM'
+    height: 0.3
+  actions: {}
