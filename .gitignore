@@ -19,10 +19,7 @@ versions/
 .console_history
 
 # ===== JAR =====
-# Bỏ qua JAR ở mọi nơi
 *.jar
-
-# Nhưng CHO PHÉP plugin JAR
 !plugins/*.jar
 
 # ===== WORLDEDIT =====
@@ -53,6 +50,9 @@ plugins/Citizens/
 plugins/PlaceholderAPI/config.yml
 plugins/WorldEdit/config.yml
 
+# ===== BLAZECORE PLAYER DATA =====
+plugins/BlazeCore/data/
+
 # ===== PLAYER / SERVER RUNTIME DATA =====
 usercache.json
 ops.json
@@ -78,5 +78,3 @@ desktop.ini
 *.zip
 *.rar
 *.7z
-# BlazeCore player data
-plugins/BlazeCore/data/
