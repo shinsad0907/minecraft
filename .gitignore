@@ -1,15 +1,15 @@
-# =========================================
-# BLAZE SURVIVAL - GITIGNORE
-# =========================================
+# ==========================================
+# BLAZE SURVIVAL
+# ==========================================
 
-# ---------- WORLDS ----------
+# ===== WORLD / MAP =====
 world/
 world_nether/
 world_the_end/
 lobby/
 survival/
 
-# ---------- SERVER RUNTIME ----------
+# ===== SERVER RUNTIME / FILE NẶNG =====
 logs/
 cache/
 crash-reports/
@@ -18,64 +18,63 @@ versions/
 .paper-remapped/
 .console_history
 
-# ---------- JAR / BACKUP ----------
+# ===== JAR =====
+# Bỏ qua JAR ở mọi nơi
 *.jar
+
+# Nhưng CHO PHÉP plugin JAR
+!plugins/*.jar
+
+# ===== WORLDEDIT =====
+plugins/WorldEdit/.archive-unpack/
+plugins/WorldEdit/schematics/
+
+# ===== WORLDGUARD CACHE =====
+plugins/WorldGuard/cache/
+
+# ===== ANALYTICS / CACHE =====
+plugins/FancyAnalytics/
+plugins/bStats/
+plugins/spark/
+
+# ===== FANCYNPCS CACHE =====
+plugins/FancyNpcs/.data/skins/
+plugins/FancyNpcs/version.yml
+plugins/FancyNpcs/featureFlags.yml
+
+# ===== TAB CACHE =====
+plugins/TAB/skincache.yml
+plugins/TAB/playerdata.yml
+
+# ===== UNUSED / OLD PLUGIN =====
+plugins/Citizens/
+
+# ===== CONFIG KHÔNG CẦN ĐỒNG BỘ =====
+plugins/PlaceholderAPI/config.yml
+plugins/WorldEdit/config.yml
+
+# ===== PLAYER / SERVER RUNTIME DATA =====
+usercache.json
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+eula.txt
+version_history.json
+
+# ===== DEFAULT / UNUSED =====
+help.yml
+permissions.yml
+wepif.yml
+
+# ===== WINDOWS =====
+Thumbs.db
+desktop.ini
+
+# ===== TEMP / BACKUP =====
 *.log
 *.tmp
 *.bak
 *.zip
 *.rar
 *.7z
-
-# ---------- WORLDEDIT CACHE ----------
-plugins/WorldEdit/.archive-unpack/
-
-# Không đồng bộ schematic map qua Git
-plugins/WorldEdit/schematics/
-
-# ---------- PLUGIN CACHE / ANALYTICS ----------
-plugins/FancyAnalytics/
-plugins/bStats/
-plugins/spark/
-
-# FancyNPC skin cache
-plugins/FancyNpcs/.data/skins/
-
-# TAB cache / player runtime data
-plugins/TAB/skincache.yml
-plugins/TAB/playerdata.yml
-
-# ---------- SERVER PLAYER DATA ----------
-usercache.json
-ops.json
-whitelist.json
-banned-ips.json
-banned-players.json
-
-# ---------- WINDOWS ----------
-Thumbs.db
-desktop.ini
-
-# ---------- OTHER ----------
-eula.txt
-version_history.json
-
-# ===== KHÔNG CẦN THIẾT CHO TEAM =====
-
-# Plugin cũ / không dùng
-plugins/Citizens/
-
-# File version/runtime của FancyNpcs
-plugins/FancyNpcs/version.yml
-plugins/FancyNpcs/featureFlags.yml
-
-# PlaceholderAPI config gần như không cần đồng bộ
-plugins/PlaceholderAPI/config.yml
-
-# Config tool/admin, ít khi cần đồng bộ
-plugins/WorldEdit/config.yml
-
-# Server files mặc định, trừ khi team cố ý chỉnh
-help.yml
-permissions.yml
-wepif.yml
