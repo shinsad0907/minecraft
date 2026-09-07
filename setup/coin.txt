@@ -1,0 +1,26 @@
+Test:
+
+/coin set ShinYewEm 1500
+/papi parse me %blaze_coin_formatted%
+
+Kết quả:
+
+1.5K
+
+Thử:
+
+/coin set ShinYewEm 125000
+
+→
+
+125K
+
+Và:
+
+/coin set ShinYewEm 1500000
+
+→
+
+1.5M
+
+Sau đó trong TAB, đổi:
