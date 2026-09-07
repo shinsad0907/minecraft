@@ -78,3 +78,5 @@ desktop.ini
 *.zip
 *.rar
 *.7z
+# BlazeCore player data
+plugins/BlazeCore/data/

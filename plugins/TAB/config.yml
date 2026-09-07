@@ -109,7 +109,7 @@ bossbar:
 scoreboard:
   enabled: true
   toggle-command: /sb
-  remember-toggle-choice: true
+  remember-toggle-choice: false
   hidden-by-default: false
 
   scoreboards:
@@ -120,7 +120,7 @@ scoreboard:
         - ""
         - "&f👤 Người chơi: &e%player_name%"
         - "&f⚔ Cấp độ: &7Sắp ra mắt"
-        - "&f💰 Xu: &7Sắp ra mắt"
+        - "&f💰 Coin: &e%blaze_coin_formatted%"
         - ""
         - "&f🌎 Khu vực: &a%world%"
         - "&f👥 Online: &b%server_online%"
